@@ -49,13 +49,16 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; 
+  add margin and padding from solution */
+  margin: 0;
+  padding: 0; 
   column-gap: 16px;
 }
 
-li {
+/* li {
   flex: auto;
-}
+} */
 
 .left-side {
   display: flex;
@@ -65,8 +68,8 @@ li {
 
 .right-side {
   display: flex;
-  flex: auto;
-  justify-content: flex-end;
+ /* flex: auto; */
+ /* justify-content: flex-end; Does not need "flex-end" because header has "space-between"*/
   align-items: center;
   gap: 8px;
-}
+} 

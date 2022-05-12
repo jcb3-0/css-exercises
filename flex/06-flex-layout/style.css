@@ -13,7 +13,7 @@ body {
 ul, a {
   text-decoration: none;
   list-style: none;
-  color: rgb(65, 64, 64);
+  color: rgb(105, 105, 105);
 }
 
 .header {
@@ -46,7 +46,7 @@ ul, a {
   display: flex;
   justify-content: space-between;
   padding: 16px;
-  background-color: rgb(236, 234, 234);
+  background-color: #eeeeee
 }
 
 img {
